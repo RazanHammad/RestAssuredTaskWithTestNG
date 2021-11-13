@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="٢٠٢١-١١-١٣T٢٢:١٨:٢٢ AST" name="Default suite" finished-at="٢٠٢١-١١-١٣T٢٢:١٨:٢٩ AST" duration-ms="6624">
+  <suite started-at="٢٠٢١-١١-١٣T٢٢:٣٣:٥٧ AST" name="Default suite" finished-at="٢٠٢١-١١-١٣T٢٢:٣٤:٠٤ AST" duration-ms="6832">
     <groups>
     </groups>
-    <test started-at="٢٠٢١-١١-١٣T٢٢:١٨:٢٢ AST" name="Default test" finished-at="٢٠٢١-١١-١٣T٢٢:١٨:٢٩ AST" duration-ms="6624">
-      <class name="CourseCollection.addcourse">
-        <test-method signature="get_one_course()[pri:2, instance:CourseCollection.addcourse@a3d8174]" started-at="٢٠٢١-١١-١٣T٢٢:١٨:٢٢ AST" name="get_one_course" finished-at="٢٠٢١-١١-١٣T٢٢:١٨:٢٩ AST" duration-ms="6466" status="PASS">
+    <test started-at="٢٠٢١-١١-١٣T٢٢:٣٣:٥٧ AST" name="Default test" finished-at="٢٠٢١-١١-١٣T٢٢:٣٤:٠٤ AST" duration-ms="6832">
+      <class name="CourseCollection.editcourse">
+        <test-method signature="edit_course()[pri:1, instance:CourseCollection.editcourse@2f8dad04]" started-at="٢٠٢١-١١-١٣T٢٢:٣٣:٥٧ AST" name="edit_course" finished-at="٢٠٢١-١١-١٣T٢٢:٣٤:٠٤ AST" duration-ms="6570" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get_one_course -->
-      </class> <!-- CourseCollection.addcourse -->
+        </test-method> <!-- edit_course -->
+        <test-method signature="getcourse()[pri:2, instance:CourseCollection.editcourse@2f8dad04]" started-at="٢٠٢١-١١-١٣T٢٢:٣٤:٠٤ AST" name="getcourse" finished-at="٢٠٢١-١١-١٣T٢٢:٣٤:٠٤ AST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcourse -->
+      </class> <!-- CourseCollection.editcourse -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
