@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="٢٠٢١-١١-١٣T٢٢:٣٧:٢٨ AST" name="Default suite" finished-at="٢٠٢١-١١-١٣T٢٢:٣٧:٣٣ AST" duration-ms="4842">
+  <suite started-at="٢٠٢١-١١-١٣T٢٢:٣٨:٣٨ AST" name="Default suite" finished-at="٢٠٢١-١١-١٣T٢٢:٣٨:٤٣ AST" duration-ms="4671">
     <groups>
     </groups>
-    <test started-at="٢٠٢١-١١-١٣T٢٢:٣٧:٢٨ AST" name="Default test" finished-at="٢٠٢١-١١-١٣T٢٢:٣٧:٣٣ AST" duration-ms="4842">
-      <class name="CourseCollection.getSpecificCourse">
-        <test-method signature="get_one_course()[pri:1, instance:CourseCollection.getSpecificCourse@2bfc268b]" started-at="٢٠٢١-١١-١٣T٢٢:٣٧:٢٩ AST" name="get_one_course" finished-at="٢٠٢١-١١-١٣T٢٢:٣٧:٣٣ AST" duration-ms="4709" status="PASS">
+    <test started-at="٢٠٢١-١١-١٣T٢٢:٣٨:٣٨ AST" name="Default test" finished-at="٢٠٢١-١١-١٣T٢٢:٣٨:٤٣ AST" duration-ms="4671">
+      <class name="CourseCollection.deletecourse">
+        <test-method signature="delete_course()[pri:0, instance:CourseCollection.deletecourse@2f8dad04]" started-at="٢٠٢١-١١-١٣T٢٢:٣٨:٣٨ AST" name="delete_course" finished-at="٢٠٢١-١١-١٣T٢٢:٣٨:٤٣ AST" duration-ms="4471" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get_one_course -->
-      </class> <!-- CourseCollection.getSpecificCourse -->
+        </test-method> <!-- delete_course -->
+        <test-method signature="get_course()[pri:2, instance:CourseCollection.deletecourse@2f8dad04]" started-at="٢٠٢١-١١-١٣T٢٢:٣٨:٤٣ AST" name="get_course" finished-at="٢٠٢١-١١-١٣T٢٢:٣٨:٤٣ AST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_course -->
+      </class> <!-- CourseCollection.deletecourse -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
